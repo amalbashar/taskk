@@ -1,0 +1,198 @@
+/* Login.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .login-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .login-box p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #23476b;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #39648f;
+  }
+  
+  .register-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .register-link a {
+    color: #23476b;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #23476b;
+    padding: 10px 20px;
+  }
+  
+  .navbar .logo_h img {
+    height: 110px;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #00c1d4;
+  }
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  width: calc(33.333% - 20px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+h4 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+p {
+  margin: 5px 0;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  li {
+      width: calc(50% - 20px); 
+  }
+}
+
+@media (max-width: 480px) {
+  li {
+      width: 100%; 
+  }
+}
+/* تنسيق الـ Navbar */
+.header_area {
+  position: fixed;
+
+  width: 100%; 
+  z-index: 1000; 
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-center {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.navbar-center h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.navbar-right {
+  display: flex;
+ 
+}
+
+.navbar-right .nav-link {
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+}
+
+.navbar-right .nav-link:hover {
+  color: #0056b3;
+}
+
+
+button.nav-link {
+  font-weight: bold;
+}
